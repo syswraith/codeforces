@@ -11,5 +11,4 @@ curl -s "https://codeforces.com/api/problemset.problems" | jq --arg contest_id "
 git add .
 git commit -m "Initial commit"
 git push
-cd $problem
-vi solution.py
+vim solution.py

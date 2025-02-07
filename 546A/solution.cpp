@@ -1,15 +1,12 @@
 #include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-
 using namespace std;
-
 int main()
 {
-    ios_base::sync_with_stdio(0),cin.tie(0),cout.tie(0);
-
-    // Begin here
-
+    int k, n, w, x, t, m;
+    cin >> k >> n >> w;
+    t = 0;
+    for (x = 1; x < w+1; x++) t+=(x*k);
+    m = t-n;
+    cout << ((m>0)?m:0) << '\n';
     return 0;
 }

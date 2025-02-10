@@ -13,5 +13,4 @@ echo '```' >> README.md
 alias minify="../config/minify"
 git add .
 git commit -m "Initial commit for $problem"
-git push
 vim solution.py

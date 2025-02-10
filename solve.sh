@@ -12,6 +12,6 @@ curl -s "https://codeforces.com/api/problemset.problems" | jq --arg contest_id "
 echo '```' >> README.md
 alias minify="../config/minify"
 git add .
-git commit -m "Initial commit"
+git commit -m "Initial commit for $problem"
 git push
 vim solution.py

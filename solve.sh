@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+git pull origin main
 read -p "Enter problem: " problem
 mkdir $problem
 cd $problem

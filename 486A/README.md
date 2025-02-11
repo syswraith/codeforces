@@ -7,3 +7,5 @@
   ]
 }
 ```
+
+use `long long` for working with big numbers

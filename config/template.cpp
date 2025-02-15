@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#define FOR(a,c) for(int a=0;a<c;a++)
+
 using namespace std;
 
 int main()

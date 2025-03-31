@@ -1,3 +1,5 @@
+// integer division trick as suggested by chatgpt
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -5,8 +7,8 @@ using namespace std;
 int main()
 {
     ios_base::sync_with_stdio(0),cin.tie(0),cout.tie(0);
-    double n,m,a;
+    long long n,m,a;
     cin >> n >> m >> a;
-    cout << fixed << setprecision(0) << ceil(n/a) * ceil(m/a) << '\n';
+    cout << (n+a-1)/a * (m+a-1)/a << '\n';
     return 0;
 }
